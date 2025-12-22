@@ -14,6 +14,16 @@
   display: inline-block !important;
 }
 
+/* Hide hamburger menu button - always show navigation */
+.greedy-nav button {
+  display: none !important;
+}
+
+/* Make avatar rectangular instead of circular */
+.author__avatar img {
+  border-radius: 8px !important;
+}
+
 /* Ensure news section renders with proper spacing */
 .page__content p {
   margin-bottom: 1em;
