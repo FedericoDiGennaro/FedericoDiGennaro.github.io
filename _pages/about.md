@@ -22,13 +22,11 @@ Outside my research activities, I enjoy endurance sports and supporting my belov
 ## News
 
 <div style="height: 300px; overflow-y: auto; border-left: 3px solid #0d01ffff; padding-left: 20px; margin-top: 20px;">
+<p><strong>Fall 2025</strong> - Joined <a href="https://sml.inf.ethz.ch/group/">Statistical Machine Learning Group</a> at ETH Zürich as a PhD student.</p>
 
-**Fall 2025** - Joined [Statistical Machine Learning Group](https://sml.inf.ethz.ch/group/) at ETH Zürich as a PhD student. 
+<p><strong>September 2025</strong> - Our paper on <a href="https://www.arxiv.org/abs/2510.19158">Instance-Dependent Regret Bounds for Nonstochastic Linear Partial Monitoring</a> has been accepted to NeurIPS 2025! 🎉</p>
 
-**September 2025** - Our paper on [Instance-Dependent Regret Bounds for Nonstochastic Linear Partial Monitoring](https://www.arxiv.org/abs/2510.19158) has been accepted to NeurIPS 2025! 🎉
+<p><strong>Spring 2025</strong> - Visiting Student Researcher at UC Berkeley hosted by <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a>.</p>
 
-**Spring 2025** - Visiting Student Researcher at UC Berkeley hosted by [Prof. Nikita Zhivotovskiy](https://sites.google.com/view/nikitazhivotovskiy/).
-
-**Fall 2024** - Visiting Student Researcher at University of Milan hosted by [Prof. Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/).
-
+<p><strong>Fall 2024</strong> - Visiting Student Researcher at University of Milan hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p>
 </div>

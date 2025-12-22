@@ -1,0 +1,20 @@
+/* Custom styles for navigation alignment */
+.greedy-nav .visible-links {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  width: 100%;
+}
+
+.greedy-nav .visible-links li:first-child {
+  margin-right: auto !important;
+}
+
+.greedy-nav .visible-links li {
+  display: inline-block !important;
+}
+
+/* Ensure news section renders with proper spacing */
+.page__content p {
+  margin-bottom: 1em;
+}
