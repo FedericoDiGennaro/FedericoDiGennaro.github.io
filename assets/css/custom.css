@@ -19,9 +19,32 @@
   display: none !important;
 }
 
+/* Prevent navigation items from being hidden */
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
+/* Force all navigation items to stay visible */
+.greedy-nav .visible-links li {
+  visibility: visible !important;
+}
+
 /* Make avatar rectangular instead of circular */
 .author__avatar img {
   border-radius: 8px !important;
+}
+
+.sidebar .author__avatar img {
+  border-radius: 8px !important;
+}
+
+div.author__avatar img {
+  border-radius: 8px !important;
+}
+
+/* Fix news section - remove extra space at bottom */
+.page__content > div {
+  display: block;
 }
 
 /* Ensure news section renders with proper spacing */
