@@ -26,7 +26,21 @@
       </div>
     {% endif %}
 
-    <h2 class="archive__item-title" itemprop="headline">
+    {% if post.collection == 'publications' %}
+    <div style="display: flex; align-items: flex-start; gap: 15px;">
+      {% if post.venue %}
+      <div style="background: #dc143c; color: white; padding: 5px 10px; border-radius: 4px; font-weight: bold; font-size: 0.8em; min-width: 80px; text-align: center; flex-shrink: 0;">
+        {% if post.venue contains "NeurIPS" %}NeurIPS
+        {% elsif post.venue contains "TMLR" %}TMLR
+        {% elsif post.venue contains "ICML" %}ICML
+        {% else %}{{ post.venue | truncate: 10, "" }}
+        {% endif %}
+      </div>
+      {% endif %}
+      <div style="flex: 1;">
+    {% endif %}
+
+    <h2 class="archive__item-title" itemprop="headline" {% if post.collection == 'publications' %}style="font-size: 1.2em; margin-top: 0;"{% endif %}>
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -49,7 +63,16 @@
 
     {% comment %}Hide excerpt and citation on list view for publications{% endcomment %}
     {% if post.collection == 'publications' %}
-      {% comment %}Only show title and venue on publications list{% endcomment %}
+      {% comment %}Show collapsible abstract for publications{% endcomment %}
+      {% if post.abstract %}
+        <div style="margin-top: 10px;">
+          <button onclick="toggleAbstract('abstract-{{ post.id | replace: '/', '-' }}')" style="background: #ddd; border: none; padding: 5px 12px; border-radius: 4px; cursor: pointer; font-size: 0.85em; margin-right: 5px;">Abstract</button>
+          {% if post.paperurl %}<a href="{{ post.paperurl }}" style="background: #ddd; border: none; padding: 5px 12px; border-radius: 4px; text-decoration: none; color: #000; font-size: 0.85em; display: inline-block;">Paper</a>{% endif %}
+        </div>
+        <div id="abstract-{{ post.id | replace: '/', '-' }}" style="display: none; margin-top: 10px; padding: 10px; background: #f5f5f5; border-left: 3px solid #ccc; font-size: 0.9em;">
+          {{ post.abstract }}
+        </div>
+      {% endif %}
     {% else %}
       {% if post.excerpt and site.read_more != 'enabled' %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
@@ -87,6 +110,11 @@
       {% elsif post.bibtexurl %}
         <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
       {% endif %}
+    {% endif %}
+
+    {% if post.collection == 'publications' %}
+      </div>
+    </div>
     {% endif %}
 
   </article>
