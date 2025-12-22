@@ -27,9 +27,9 @@
     {% endif %}
 
     {% if post.collection == 'publications' %}
-    <div style="display: flex; align-items: flex-start; gap: 15px; margin-bottom: 30px;">
+    <div style="display: flex; align-items: flex-start; gap: 12px; margin-bottom: 30px;">
       {% if post.venue %}
-      <div style="background: #4682b4; color: white; padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 0.7em; min-width: 70px; text-align: center; flex-shrink: 0;">
+      <div style="background: #5b8db8; color: white; padding: 3px 6px; border-radius: 3px; font-weight: bold; font-size: 0.65em; min-width: 60px; text-align: center; flex-shrink: 0;">
         {% if post.venue contains "NeurIPS" %}NeurIPS
         {% elsif post.venue contains "TMLR" %}TMLR
         {% elsif post.venue contains "ICML" and post.venue contains "Workshop" %}ICML Workshop
