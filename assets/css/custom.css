@@ -45,9 +45,17 @@ div.author__avatar img {
 /* Fix news section - remove extra space at bottom */
 .page__content > div {
   display: block;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .page__content > div p:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Remove extra space after scrollable div */
+div[style*="overflow-y: auto"] {
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
@@ -56,10 +64,25 @@ div.author__avatar img {
 .author__bio {
   font-size: 1.1em !important;
   margin-top: 0.5em !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
 }
 
 .author__content {
   margin-top: 0.5em !important;
+  padding-left: 0 !important;
+}
+
+/* Ensure avatar and content are properly aligned */
+.author__avatar {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+@include breakpoint($large) {
+  .author__content {
+    padding-left: 0 !important;
+  }
 }
 
 /* Ensure news section renders with proper spacing */
