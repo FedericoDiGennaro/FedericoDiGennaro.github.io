@@ -12,7 +12,7 @@ main:
     url: /
 
   - title: "cv"
-    url: /cv/
+    url: /files/cv.pdf
 
   - title: "papers"
     url: /publications/
