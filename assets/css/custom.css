@@ -47,6 +47,21 @@ div.author__avatar img {
   display: block;
 }
 
+.page__content > div p:last-child {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* Increase bio text size and improve alignment */
+.author__bio {
+  font-size: 1.1em !important;
+  margin-top: 0.5em !important;
+}
+
+.author__content {
+  margin-top: 0.5em !important;
+}
+
 /* Ensure news section renders with proper spacing */
 .page__content p {
   margin-bottom: 1em;
