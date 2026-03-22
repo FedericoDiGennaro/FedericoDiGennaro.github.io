@@ -7,6 +7,26 @@ redirect_from:
   - /about.html
 ---
 
+<div class="home-title-bar"></div>
+
+<div class="home-social-links">
+  <a href="https://scholar.google.com/citations?user=VJsj2w8AAAAJ&hl=en" aria-label="Google Scholar">
+    <i class="ai ai-google-scholar"></i>
+  </a>
+  <a href="https://x.com/fededg__" aria-label="X">
+    <i class="fab fa-x-twitter"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/federico-di-gennaro" aria-label="LinkedIn">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://github.com/FedericoDiGennaro" aria-label="GitHub">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="mailto:federico.digennaro@inf.ethz.ch" aria-label="Email">
+    <i class="fas fa-envelope"></i>
+  </a>
+</div>
+
 Hey there, happy to see you here! I am Federico and this is my personal webpage. 😎
 
 I am PhD student at the *Statistical Machine Learning Group* at **ETH Zürich**, where I am advised by [Prof. Fanny Yang](https://sml.inf.ethz.ch/group/fannyy/). I am broadly interested in `online learning`, `AI safety`, and `statistical machine learning`.
@@ -16,28 +36,6 @@ Before joining ETH Zürich, I was Visiting Student Researcher at **UC Berkeley**
 I got my master's degree in *Applied Mathematics* (minor in Data Science) at **EPFL**, where I was research assistant at the *Dynamics Of Learning Algorithms Lab* with [Prof. Lénaïc Chizat](https://lchizat.github.io/). I also hold a bachelor's degree in *Mathematical Engineer* at **Politecnico di Milano**.
 
 Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.
-
----
-
-<div class="home-title-bar"></div>
-
-<div class="home-social-links">
-  <a href="https://scholar.google.com/citations?user=VJsj2w8AAAAJ&hl=en" aria-label="Google Scholar">
-    <i class="ai ai-google-scholar"></i><span>Scholar</span>
-  </a>
-  <a href="https://x.com/fededg__" aria-label="X">
-    <i class="fab fa-x-twitter"></i><span>X</span>
-  </a>
-  <a href="https://www.linkedin.com/in/federico-di-gennaro" aria-label="LinkedIn">
-    <i class="fab fa-linkedin-in"></i><span>LinkedIn</span>
-  </a>
-  <a href="https://github.com/FedericoDiGennaro" aria-label="GitHub">
-    <i class="fab fa-github"></i><span>GitHub</span>
-  </a>
-  <a href="mailto:federico.digennaro@inf.ethz.ch" aria-label="Email">
-    <i class="fas fa-envelope"></i><span>Email</span>
-  </a>
-</div>
 
 ## News
 
