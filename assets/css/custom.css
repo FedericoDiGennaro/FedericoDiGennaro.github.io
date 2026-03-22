@@ -18,12 +18,25 @@
 .greedy-nav .visible-links a:visited,
 .greedy-nav .visible-links a:hover,
 .greedy-nav .visible-links a:focus,
+.greedy-nav .visible-links li a,
+.greedy-nav .visible-links li a:visited,
+.greedy-nav .visible-links li a:hover,
+.greedy-nav .visible-links li a:focus,
 .greedy-nav .visible-links .masthead__menu-item--active a,
+.greedy-nav .visible-links .active a,
 .masthead .greedy-nav a,
 .masthead .greedy-nav a:visited,
 .masthead .greedy-nav a:hover,
-.masthead .greedy-nav a:focus {
+.masthead .greedy-nav a:focus,
+.masthead__menu-item a,
+.masthead__menu-item a:visited,
+.masthead__menu-item a:hover,
+.masthead__menu-item a:focus {
   color: #123a7a !important;
+}
+
+.greedy-nav .visible-links a::before {
+  background: #123a7a !important;
 }
 
 /* Hide hamburger menu button - always show navigation */
@@ -155,7 +168,7 @@ h6,
 
 .archive .page__title,
 .page .page__title {
-  font-size: 1.32rem;
+  font-size: 1.48rem;
   line-height: 1.35;
   margin-bottom: 0;
   font-weight: 500;
@@ -220,4 +233,18 @@ h6,
 
 .page__content a:hover {
   text-decoration: none !important;
+}
+
+.news-list {
+  margin-top: 0.75rem;
+}
+
+.news-list p {
+  margin: 0 0 0.8rem;
+}
+
+.news-list strong {
+  color: #123a7a;
+  font-weight: 700;
+  margin-right: 0.35rem;
 }
