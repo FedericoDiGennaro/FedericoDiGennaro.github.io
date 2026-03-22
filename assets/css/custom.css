@@ -58,6 +58,10 @@
   font-weight: 400 !important;
 }
 
+.greedy-nav .visible-links li:first-child a span {
+  font-weight: 700 !important;
+}
+
 .greedy-nav .visible-links a,
 .greedy-nav .visible-links a:visited,
 .greedy-nav .visible-links a:hover,
@@ -193,7 +197,7 @@ h6,
 }
 
 .page__content > .home-title-bar:first-child {
-  margin-bottom: 1.9rem !important;
+  margin-bottom: 1.35rem !important;
 }
 
 .page__content > .home-title-bar + p {
@@ -253,6 +257,11 @@ h6,
 .page__content li {
   font-size: 1rem;
   line-height: 1.7;
+}
+
+.page__content > p {
+  max-width: 46rem;
+  text-wrap: pretty;
 }
 
 .page__content code {
