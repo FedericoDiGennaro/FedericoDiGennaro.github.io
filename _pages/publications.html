@@ -27,6 +27,23 @@ author_profile: true
     {% if post.authors %}
       <p class="publication-entry__authors">{{ post.authors | replace: "F. Di Gennaro", "<strong>F. Di Gennaro</strong>" }}</p>
     {% endif %}
-    <p class="publication-entry__venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+    <p class="publication-entry__venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+    <div class="publication-entry__actions">
+      {% if post.paperurl %}
+        <a class="publication-entry__button" href="{{ post.paperurl }}">Paper</a>
+      {% else %}
+        <span class="publication-entry__button publication-entry__button--muted">Paper</span>
+      {% endif %}
+      {% if post.codeurl %}
+        <a class="publication-entry__button" href="{{ post.codeurl }}">Code</a>
+      {% else %}
+        <span class="publication-entry__button publication-entry__button--muted">Code</span>
+      {% endif %}
+      {% if post.posterurl %}
+        <a class="publication-entry__button" href="{{ post.posterurl }}">Poster</a>
+      {% else %}
+        <span class="publication-entry__button publication-entry__button--muted">Poster</span>
+      {% endif %}
+    </div>
   </article>
 {% endfor %}
