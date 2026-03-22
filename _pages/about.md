@@ -9,7 +9,6 @@ redirect_from:
 
 <div class="home-title-bar"></div>
 
-Hey there, happy to see you here! I am Federico and this is my personal webpage. 😎
 
 I am PhD student at the *Statistical Machine Learning Group* at **ETH Zürich**, where I am advised by [Prof. Fanny Yang](https://sml.inf.ethz.ch/group/fannyy/). I am broadly interested in `online learning`, `AI safety`, and `statistical machine learning`.
 
