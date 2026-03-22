@@ -218,6 +218,11 @@ h6,
   font-size: 2.9rem;
   line-height: 1.05;
   color: #123a7a;
+  font-weight: 400;
+}
+
+.home-hero__name span {
+  font-weight: 700;
 }
 
 .home-hero__subtitle {
@@ -249,6 +254,11 @@ h6,
 
 .page__content a:hover {
   text-decoration: none !important;
+}
+
+.page__section-title {
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 .news-list {

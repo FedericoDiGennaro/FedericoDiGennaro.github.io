@@ -16,13 +16,14 @@ Before joining ETH Zürich, I was Visiting Student Researcher at **UC Berkeley**
 
 Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.
 
-## News
+<h1 class="page__title page__section-title">News</h1>
 
 <div class="home-title-bar"></div>
 
 <div class="news-list">
+  <p><strong>February 2026</strong> Our paper <a href="https://www.arxiv.org/abs/2510.19158">Efficient Logistic Regression with Mixture of Sigmoids</a> has been accepted to AISTATS 2026 🎉</p>
   <p><strong>Fall 2025</strong> Joined Statistical Machine Learning Group at ETH Zürich as a PhD student.</p>
-  <p><strong>September 2025</strong> Our paper on <a href="https://www.arxiv.org/abs/2510.19158">Instance-Dependent Regret Bounds for Nonstochastic Linear Partial Monitoring</a> has been accepted to NeurIPS 2025.</p>
+  <p><strong>September 2025</strong> Our paper <a href="https://www.arxiv.org/abs/2510.19158">Instance-Dependent Regret Bounds for Nonstochastic Linear Partial Monitoring</a> has been accepted to NeurIPS 2025 🎉</p>
   <p><strong>Spring 2025</strong> Visiting Student Researcher at UC Berkeley hosted by <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a>.</p>
   <p><strong>Fall 2024</strong> Visiting Student Researcher at University of Milan hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p>
 </div>
