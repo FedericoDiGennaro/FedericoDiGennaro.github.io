@@ -7,7 +7,8 @@ excerpt: 'Controlled model debiasing through minimal and interpretable updates.'
 date: 2025-02-02
 venue: 'Transactions on Machine Learning Research (TMLR)'
 authors: 'F. Di Gennaro, T. Laugel, V. Grari, M. Detyniecki'
-paperurl: 'https://arxiv.org/abs/2502.21284'
+paperurl: 'https://arxiv.org/pdf/2502.21284'
+codeurl: 'https://github.com/axa-rev-research/controlled-model-debiasing'
 ---
 
 [Download paper here](https://arxiv.org/abs/2502.21284)

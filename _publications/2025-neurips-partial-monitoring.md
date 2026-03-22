@@ -7,7 +7,7 @@ excerpt: 'Instance-dependent regret bounds for nonstochastic linear partial moni
 date: 2025-09-01
 venue: 'Neural Information Processing Systems (NeurIPS) 2025'
 authors: 'F. Di Gennaro, K. Eldowa, N. Cesa-Bianchi'
-paperurl: 'https://www.arxiv.org/abs/2510.19158'
+paperurl: 'https://arxiv.org/pdf/2510.19158'
 ---
 
 [Download paper here](https://www.arxiv.org/abs/2510.19158)

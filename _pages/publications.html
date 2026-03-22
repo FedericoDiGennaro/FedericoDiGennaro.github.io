@@ -30,19 +30,13 @@ author_profile: true
     <p class="publication-entry__venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
     <div class="publication-entry__actions">
       {% if post.paperurl %}
-        <a class="publication-entry__button" href="{{ post.paperurl }}">Paper</a>
-      {% else %}
-        <span class="publication-entry__button publication-entry__button--muted">Paper</span>
+        <a class="publication-entry__button" href="{{ post.paperurl }}"><i class="fas fa-file-lines" aria-hidden="true"></i><span>Paper</span></a>
       {% endif %}
       {% if post.codeurl %}
-        <a class="publication-entry__button" href="{{ post.codeurl }}">Code</a>
-      {% else %}
-        <span class="publication-entry__button publication-entry__button--muted">Code</span>
+        <a class="publication-entry__button" href="{{ post.codeurl }}"><span class="publication-entry__button-code">&lt;/&gt;</span><span>Code</span></a>
       {% endif %}
       {% if post.posterurl %}
-        <a class="publication-entry__button" href="{{ post.posterurl }}">Poster</a>
-      {% else %}
-        <span class="publication-entry__button publication-entry__button--muted">Poster</span>
+        <a class="publication-entry__button" href="{{ post.posterurl }}"><i class="fas fa-image" aria-hidden="true"></i><span>Poster</span></a>
       {% endif %}
     </div>
   </article>

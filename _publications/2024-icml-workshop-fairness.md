@@ -7,7 +7,7 @@ excerpt: 'Post-processing fairness with minimal changes.'
 date: 2024-07-01
 venue: 'ICML 2024 Workshop on Humans, Algorithmic Decision-Making and Society'
 authors: 'F. Di Gennaro, T. Laugel, V. Grari, X. Renard, M. Detyniecki'
-paperurl: 'https://arxiv.org/abs/2408.15096'
+paperurl: 'https://arxiv.org/pdf/2408.15096'
 ---
 
 [Download paper here](https://arxiv.org/abs/2408.15096)
