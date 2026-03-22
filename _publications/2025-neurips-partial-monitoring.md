@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/2025-neurips-partial-monitoring
 excerpt: 'Instance-dependent regret bounds for nonstochastic linear partial monitoring problems.'
 date: 2025-09-01
-venue: 'Neural Information Processing Systems (NeurIPS) 2025'
+venue: 'Conference on Neural Information Processing Systems (NeurIPS)'
 authors: 'F. Di Gennaro, K. Eldowa, N. Cesa-Bianchi'
 paperurl: 'https://arxiv.org/pdf/2510.19158'
 ---
