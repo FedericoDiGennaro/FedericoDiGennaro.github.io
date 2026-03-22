@@ -62,7 +62,7 @@ div[style*="overflow-y: auto"] {
 
 /* Increase bio text size and improve alignment */
 .author__bio {
-  font-size: 1.1em !important;
+  font-size: 1.16em !important;
   margin-top: 0.5em !important;
   padding-left: 0 !important;
   margin-left: 0 !important;
@@ -83,6 +83,12 @@ div[style*="overflow-y: auto"] {
   .author__content {
     padding-left: 0 !important;
   }
+}
+
+.sidebar p,
+.sidebar li,
+.author__urls a {
+  font-size: 0.82rem !important;
 }
 
 /* Ensure news section renders with proper spacing */
