@@ -14,6 +14,18 @@
   display: inline-block !important;
 }
 
+.greedy-nav .visible-links a,
+.greedy-nav .visible-links a:visited,
+.greedy-nav .visible-links a:hover,
+.greedy-nav .visible-links a:focus,
+.greedy-nav .visible-links .masthead__menu-item--active a,
+.masthead .greedy-nav a,
+.masthead .greedy-nav a:visited,
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav a:focus {
+  color: #123a7a !important;
+}
+
 /* Hide hamburger menu button - always show navigation */
 .greedy-nav button {
   display: none !important;
@@ -143,7 +155,7 @@ h6,
 
 .archive .page__title,
 .page .page__title {
-  font-size: 1.2rem;
+  font-size: 1.32rem;
   line-height: 1.35;
   margin-bottom: 0;
   font-weight: 500;
