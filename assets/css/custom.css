@@ -583,7 +583,7 @@ html[data-theme="dark"] .publications__intro {
 .home-intro {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  gap: 1.25rem;
+  gap: 1rem;
   align-items: start;
 }
 
@@ -591,20 +591,24 @@ html[data-theme="dark"] .publications__intro {
   margin-top: 0;
 }
 
+.home-intro__photo {
+  align-self: start;
+}
+
 .home-intro__photo img {
   display: block;
   width: 100%;
-  max-width: 220px;
+  max-width: 170px;
   margin: 0 auto;
-  border-radius: 16px;
+  border-radius: 12px;
   border: 1px solid rgba(18, 58, 122, 0.14);
-  box-shadow: 0 16px 36px -28px rgba(18, 58, 122, 0.45);
+  box-shadow: 0 10px 24px -22px rgba(18, 58, 122, 0.35);
 }
 
 @media (min-width: 925px) {
   .home-intro {
-    grid-template-columns: minmax(0, 1fr) 240px;
-    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) 185px;
+    gap: 1.5rem;
   }
 
   .home-intro__photo img {
