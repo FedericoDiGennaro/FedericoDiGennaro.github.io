@@ -49,6 +49,10 @@
   font-size: 1rem;
 }
 
+.masthead__menu-item--lg {
+  font-weight: 400 !important;
+}
+
 .greedy-nav .visible-links a,
 .greedy-nav .visible-links a:visited,
 .greedy-nav .visible-links a:hover,
@@ -178,7 +182,7 @@ h6,
 .home-title-bar {
   width: 72px;
   height: 4px;
-  margin: 0.15rem 0 0.8rem;
+  margin: 0.15rem 0 1.2rem;
   border-radius: 999px;
   background-color: #123a7a;
 }
