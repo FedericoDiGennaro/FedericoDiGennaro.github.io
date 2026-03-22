@@ -9,11 +9,11 @@ redirect_from:
 
 <div class="home-title-bar"></div>
 
-<div class="home-intro" markdown="1">
-  <div class="home-intro__text" markdown="1">
-I am PhD student at **ETH Zürich**, where I am advised by [Prof. Fanny Yang](https://sml.inf.ethz.ch/group/fannyy/). My broad research interests are `LLM post-training`, `AI safety`, and `statistical learning`.
+<div class="home-intro">
+  <div class="home-intro__text">
+    <p>I am PhD student at <strong>ETH Zürich</strong>, where I am advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a>. My broad research interests are <code>LLM post-training</code>, <code>AI safety</code>, and <code>statistical learning</code>.</p>
 
-Before joining ETH Zürich, I was Visiting Student Researcher at **UC Berkeley** (spring semester 2025) hosted by [Prof. Nikita Zhivotovskiy](https://sites.google.com/view/nikitazhivotovskiy/) and at **Università di Milano** (fall semester 2024) hosted by [Prof. Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/).
+    <p>Before joining ETH Zürich, I was Visiting Student Researcher at <strong>UC Berkeley</strong> (spring semester 2025) hosted by <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a> and at <strong>Università di Milano</strong> (fall semester 2024) hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p>
   </div>
   <div class="home-intro__photo">
     <img src="/images/profile-photo.jpg" alt="Federico Di Gennaro">
