@@ -14,15 +14,15 @@ redirect_from:
     <p>I am PhD student at <strong>ETH Zürich</strong>, where I am advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a>. My broad research interests are <code>LLM post-training</code>, <code>AI safety</code>, and <code>statistical learning</code>.</p>
 
     <p>Before joining ETH Zürich, I was Visiting Student Researcher at <strong>UC Berkeley</strong> (spring semester 2025) hosted by <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a> and at <strong>Università di Milano</strong> (fall semester 2024) hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p>
+
+    <p>I hold a master's degree in <em>Applied Mathematics</em> from <strong>EPFL</strong>, and a bachelor's degree in <em>Mathematical Engineer</em> at <strong>Politecnico di Milano</strong>.</p>
+
+    <p>Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.</p>
   </div>
   <div class="home-intro__photo">
     <img src="/images/profile-photo.jpg" alt="Federico Di Gennaro">
   </div>
 </div>
-
-I hold a master's degree in *Applied Mathematics* from **EPFL**, and a bachelor's degree in *Mathematical Engineer* at **Politecnico di Milano**.
-
-Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.
 
 <h1 class="page__title page__section-title">News</h1>
 
