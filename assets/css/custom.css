@@ -170,6 +170,11 @@ div[style*="overflow-y: auto"] {
   font-size: 0.88rem !important;
 }
 
+.author__mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  color: inherit;
+}
+
 /* Ensure news section renders with proper spacing */
 .page__content p {
   margin-bottom: 1em;
