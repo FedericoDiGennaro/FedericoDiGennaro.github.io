@@ -605,7 +605,7 @@ html[data-theme="dark"] .publications__intro {
   box-shadow: 0 10px 24px -22px rgba(18, 58, 122, 0.35);
 }
 
-@media (min-width: 925px) {
+@media (min-width: 760px) {
   .home-intro {
     grid-template-columns: minmax(0, 1fr) 185px;
     gap: 1.5rem;
