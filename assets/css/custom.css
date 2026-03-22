@@ -615,7 +615,7 @@ html[data-theme="dark"] .page__content code {
   align-self: start;
   flex: 0 0 185px;
   width: 185px;
-  margin-left: auto;
+  margin-left: 0;
 }
 
 .home-intro__photo img {

@@ -10,6 +10,9 @@ redirect_from:
 <div class="home-title-bar"></div>
 
 <div class="home-intro">
+  <div class="home-intro__photo">
+    <img src="/images/profile-photo.jpg" alt="Federico Di Gennaro">
+  </div>
   <div class="home-intro__text">
     <p>I am PhD student at <strong>ETH Zürich</strong>, where I am advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a>. My broad research interests are <code>LLM post-training</code>, <code>AI safety</code>, and <code>statistical learning</code>.</p>
 
@@ -18,9 +21,6 @@ redirect_from:
     <p>I hold a master's degree in <em>Applied Mathematics</em> from <strong>EPFL</strong>, and a bachelor's degree in <em>Mathematical Engineer</em> at <strong>Politecnico di Milano</strong>.</p>
 
     <p>Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.</p>
-  </div>
-  <div class="home-intro__photo">
-    <img src="/images/profile-photo.jpg" alt="Federico Di Gennaro">
   </div>
 </div>
 
