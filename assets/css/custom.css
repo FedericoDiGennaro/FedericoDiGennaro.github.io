@@ -168,14 +168,7 @@ div[style*="overflow-y: auto"] {
 }
 
 .sidebar > div::before {
-  content: "";
-  position: absolute;
-  top: 0.9rem;
-  left: 1rem;
-  width: 44px;
-  height: 3px;
-  border-radius: 999px;
-  background: #123a7a;
+  display: none;
 }
 
 @include breakpoint($large) {
@@ -199,6 +192,10 @@ div[style*="overflow-y: auto"] {
 .author__mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   color: inherit;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .author__avatar {
@@ -507,10 +504,110 @@ h6,
   }
 }
 
+html[data-theme="dark"] .greedy-nav .visible-links a,
+html[data-theme="dark"] .greedy-nav .visible-links a:visited,
+html[data-theme="dark"] .greedy-nav .visible-links a:hover,
+html[data-theme="dark"] .greedy-nav .visible-links a:focus,
+html[data-theme="dark"] .masthead__menu-item a,
+html[data-theme="dark"] .masthead__menu-item a:visited,
+html[data-theme="dark"] .masthead__menu-item a:hover,
+html[data-theme="dark"] .masthead__menu-item a:focus,
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .home-hero__name,
+html[data-theme="dark"] .home-hero__subtitle,
+html[data-theme="dark"] .author__name,
+html[data-theme="dark"] .sidebar strong,
+html[data-theme="dark"] .publication-entry__title,
+html[data-theme="dark"] .publications__year,
+html[data-theme="dark"] .publication-entry__authors strong {
+  color: #b8ffb8 !important;
+}
+
+html[data-theme="dark"] .greedy-nav .visible-links a::before,
+html[data-theme="dark"] .home-title-bar,
+html[data-theme="dark"] .publications__year::after {
+  background: #b8ffb8 !important;
+}
+
+html[data-theme="dark"] .masthead__brand-icons a,
+html[data-theme="dark"] .publication-entry__button,
+html[data-theme="dark"] .sidebar > div {
+  border-color: rgba(184, 255, 184, 0.22) !important;
+}
+
+html[data-theme="dark"] .publication-entry__button,
+html[data-theme="dark"] .publication-entry__button span,
+html[data-theme="dark"] .publication-entry__button i,
+html[data-theme="dark"] .author__urls a:hover {
+  color: #b8ffb8 !important;
+}
+
+html[data-theme="dark"] .publication-entry__button,
+html[data-theme="dark"] .masthead__brand-icons a,
+html[data-theme="dark"] .sidebar > div {
+  background: rgba(184, 255, 184, 0.05) !important;
+}
+
+html[data-theme="dark"] .author__urls a,
+html[data-theme="dark"] .author__mono,
+html[data-theme="dark"] .author__desktop,
+html[data-theme="dark"] .publication-entry__venue,
+html[data-theme="dark"] .publications__intro {
+  color: #d7e7d7 !important;
+}
+
 @media (min-width: 925px) {
   .page.page--home {
-    width: calc(100% - 15rem) !important;
+    width: 100% !important;
     max-width: none !important;
-    margin-left: 14rem !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media (min-width: 925px) {
+  .page,
+  .archive {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+  }
+}
+
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.home-intro__text p:first-child {
+  margin-top: 0;
+}
+
+.home-intro__photo img {
+  display: block;
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid rgba(18, 58, 122, 0.14);
+  box-shadow: 0 16px 36px -28px rgba(18, 58, 122, 0.45);
+}
+
+@media (min-width: 925px) {
+  .home-intro {
+    grid-template-columns: minmax(0, 1fr) 240px;
+    gap: 2rem;
+  }
+
+  .home-intro__photo img {
+    margin-left: auto;
   }
 }
