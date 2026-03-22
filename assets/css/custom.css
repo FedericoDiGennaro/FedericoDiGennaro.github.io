@@ -581,10 +581,15 @@ html[data-theme="dark"] .publications__intro {
 }
 
 .home-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 1rem;
   align-items: start;
+}
+
+.home-intro__text {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .home-intro__text p:first-child {
@@ -593,6 +598,7 @@ html[data-theme="dark"] .publications__intro {
 
 .home-intro__photo {
   align-self: start;
+  flex: 0 0 auto;
 }
 
 .home-intro__photo img {
@@ -605,10 +611,14 @@ html[data-theme="dark"] .publications__intro {
   box-shadow: 0 10px 24px -22px rgba(18, 58, 122, 0.35);
 }
 
-@media (min-width: 760px) {
+@media (min-width: 700px) {
   .home-intro {
-    grid-template-columns: minmax(0, 1fr) 185px;
+    flex-direction: row;
     gap: 1.5rem;
+  }
+
+  .home-intro__photo {
+    width: 185px;
   }
 
   .home-intro__photo img {
