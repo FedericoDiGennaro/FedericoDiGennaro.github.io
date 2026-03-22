@@ -1,0 +1,14 @@
+---
+title: "Efficient Logistic Regression with Mixture of Sigmoids"
+collection: publications
+category: conferences
+permalink: /publication/2026-aistats-mixture-of-sigmoids
+excerpt: 'Efficient Logistic Regression with Mixture of Sigmoids.'
+date: 2026-04-01
+venue: 'International Conference on Artificial Intelligence and Statistics (AISTATS)'
+authors: 'F. Di Gennaro, S. Chakraborty, N. Zhivotovskiy'
+paperurl: 'https://openreview.net/forum?id=uIrXC4fJIv'
+---
+
+This paper explores the Exponential Weights (EW) algorithm with an isotropic Gaussian prior for online logistic regression. Our analysis establishes a near-optimal worst-case regret bound of order $O\!\left(d \log(Bn)\right)$ against the best linear predictor of norm at most $B$ (Kakade and Ng, 2005), together with a practical implementation whose total worst-case runtime is $\tilde O(B^3 n^5)$ -- a substantial improvement over the $O(B^{18} n^{37})$ complexity of prior work achieving the same regret rate (Foster et al., 2018).
+Beyond efficiency, we characterize EW in the linearly separable regime: as $B\to\infty$, the posterior converges to a truncated Gaussian supported on the version cone, and the resulting predictor converges to a solid-angle vote over separating directions. In addition, the mode of this (truncated Gaussian) distribution aligns in direction with the hard-margin SVM solution. As a consequence, we show that, non-asymptotically and once $B$ exceeds a margin-dependent threshold, the regret becomes independent of $B$ and scales only logarithmically with the margin. Overall, our results demonstrate that EWA can be both computationally tractable and geometrically adaptive in online classification.

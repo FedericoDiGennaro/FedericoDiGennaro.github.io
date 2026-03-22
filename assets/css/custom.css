@@ -266,11 +266,6 @@ h6,
   line-height: 1.7;
 }
 
-.page__content > p {
-  max-width: 46rem;
-  text-wrap: pretty;
-}
-
 .page__content code {
   padding: 0;
   border: 0;
