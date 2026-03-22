@@ -19,24 +19,6 @@ I got my master's degree in *Applied Mathematics* (minor in Data Science) at **E
 
 Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.
 
-<div class="home-social-links">
-  <a href="https://scholar.google.com/citations?user=VJsj2w8AAAAJ&hl=en" aria-label="Google Scholar">
-    <i class="ai ai-google-scholar"></i>
-  </a>
-  <a href="https://x.com/fededg__" aria-label="X">
-    <i class="fab fa-x-twitter"></i>
-  </a>
-  <a href="https://www.linkedin.com/in/federico-di-gennaro" aria-label="LinkedIn">
-    <i class="fab fa-linkedin-in"></i>
-  </a>
-  <a href="https://github.com/FedericoDiGennaro" aria-label="GitHub">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="mailto:federico.digennaro@inf.ethz.ch" aria-label="Email">
-    <i class="fas fa-envelope"></i>
-  </a>
-</div>
-
 ## News
 
 <div class="news-list">

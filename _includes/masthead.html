@@ -6,7 +6,17 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% if page.url == "/" %}
+            <li class="masthead__menu-item masthead__menu-item--lg persist masthead__brand-icons">
+              <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+              <a href="https://x.com/{{ site.author.twitter }}" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </li>
+          {% else %}
+            <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+          {% endif %}
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
