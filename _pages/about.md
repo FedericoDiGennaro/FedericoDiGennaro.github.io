@@ -11,7 +11,8 @@ redirect_from:
 
 I am PhD student at **ETH Zürich**, where I am advised by [Prof. Fanny Yang](https://sml.inf.ethz.ch/group/fannyy/). My broad research interests are `LLM post-training`, `AI safety`, and `statistical learning`.
 
-Before joining ETH Zürich, I was Visiting Student Researcher at **UC Berkeley** (spring semester 2025) hosted by [Prof. Nikita Zhivotovskiy](https://sites.google.com/view/nikitazhivotovskiy/) and at **Università di Milano** (fall semester 2024) hosted by [Prof. Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/). I hold a master's degree in *Applied Mathematics* from **EPFL**, and a bachelor's degree in *Mathematical Engineer* at **Politecnico di Milano**.
+Before joining ETH Zürich, I was Visiting Student Researcher at **UC Berkeley** (spring semester 2025) hosted by [Prof. Nikita Zhivotovskiy](https://sites.google.com/view/nikitazhivotovskiy/) and at **Università di Milano** (fall semester 2024) hosted by [Prof. Nicolò Cesa-Bianchi](https://cesa-bianchi.di.unimi.it/). 
+I hold a master's degree in *Applied Mathematics* from **EPFL**, and a bachelor's degree in *Mathematical Engineer* at **Politecnico di Milano**.
 
 Outside my research activities, I enjoy endurance sports (🏃🏻,🚴🏻,🏊🏻,🏋🏻‍♀️), supporting my beloved football team FC Inter Milan ⚽️, and eating good food 🍕.
 
