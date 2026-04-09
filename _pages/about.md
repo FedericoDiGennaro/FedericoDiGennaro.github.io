@@ -31,7 +31,7 @@ redirect_from:
 <div class="news-list">
   <div class="news-item">
     <strong>February 2026</strong>
-    <span>Our paper <a href="https://openreview.net/forum?id=uIrXC4fJIv">Efficient Logistic Regression with Mixture of Sigmoids</a> has been accepted to AISTATS 2026 🎉</span>
+    <span>Our paper <a href="https://arxiv.org/abs/2604.02920">Efficient Logistic Regression with Mixture of Sigmoids</a> has been accepted to AISTATS 2026 🎉</span>
   </div>
   <div class="news-item">
     <strong>Fall 2025</strong>
