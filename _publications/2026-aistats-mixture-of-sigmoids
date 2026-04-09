@@ -7,7 +7,8 @@ excerpt: 'Efficient Logistic Regression with Mixture of Sigmoids.'
 date: 2026-04-01
 venue: 'International Conference on Artificial Intelligence and Statistics (AISTATS)'
 authors: 'F. Di Gennaro, S. Chakraborty, N. Zhivotovskiy'
-paperurl: 'https://openreview.net/forum?id=uIrXC4fJIv'
+paperurl: 'https://arxiv.org/abs/2604.02920'
+codeurl: 'https://github.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids'
 ---
 
 This paper explores the Exponential Weights (EW) algorithm with an isotropic Gaussian prior for online logistic regression. Our analysis establishes a near-optimal worst-case regret bound of order $O\!\left(d \log(Bn)\right)$ against the best linear predictor of norm at most $B$ (Kakade and Ng, 2005), together with a practical implementation whose total worst-case runtime is $\tilde O(B^3 n^5)$ -- a substantial improvement over the $O(B^{18} n^{37})$ complexity of prior work achieving the same regret rate (Foster et al., 2018).
