@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="home-intro">
   <div class="home-intro__text">
-    <p>I am PhD student at <strong>ETH Zürich</strong>, where I am advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a>. My broad research interests are <code>LLM post-training</code>, <code>AI safety</code>, and <code>statistical learning</code>.</p>
+    <p>I am PhD student at <strong>ETH Zürich</strong>, where I am advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a>. My broad research interests are <code>Generative models</code>, <code>LLMs post-training</code>, and <code>Statistical Learning</code>.</p>
 
     <p>Before joining ETH Zürich, I was Visiting Student Researcher at <strong>UC Berkeley</strong> (spring semester 2025) hosted by <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a> and at <strong>Università di Milano</strong> (fall semester 2024) hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p>
 
