@@ -21,14 +21,15 @@ redirect_from:
   </div>
   <div class="home-intro__photo">
     <img src="/images/profile-photo.jpg" alt="Federico Di Gennaro">
+    <p><code>Office: ETH CAB G 19.3, Zürich (Switzerland)</code></p>
   </div>
 </div>
 
 <div class="home-contact-card">
-  <p>Feel free to <a href="mailto:federico.digennaro@inf.ethz.ch">reach out</a> if you wish to collaborate, exchange ideas, or seek thesis supervision.</p>
+  <p>I am always open to discussing research ideas, collaborations, and student projects.</p>
   <div class="home-contact-card__links">
     <strong>Contacts:</strong>
-    <a href="mailto:federico.digennaro@inf.ethz.ch">federico.digennaro@inf.ethz.ch</a>
+    <a href="mailto:fdigennaro@ethz.ch">fdigennaro@ethz.ch</a>
     <span aria-hidden="true">|</span>
     <a href="https://scholar.google.com/citations?user=VJsj2w8AAAAJ&hl=en">Google Scholar</a>
     <span aria-hidden="true">|</span>

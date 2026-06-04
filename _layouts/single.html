@@ -51,6 +51,12 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.collection == 'publications' and page.teaser %}
+          <figure class="publication-page__teaser">
+            <img src="{{ page.teaser | relative_url }}" alt="Teaser for {{ page.title }}">
+          </figure>
+        {% endif %}
+
         {{ content }}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

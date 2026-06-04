@@ -32,6 +32,11 @@ author_profile: true
           <a class="publication-entry__button" href="{{ post.posterurl }}"><i class="fas fa-image" aria-hidden="true"></i><span>Poster</span></a>
         {% endif %}
       </div>
+      {% if post.teaser %}
+        <figure class="publication-entry__teaser">
+          <img src="{{ post.teaser | relative_url }}" alt="Teaser for {{ post.title }}">
+        </figure>
+      {% endif %}
     </article>
     {% unless forloop.last %}
       <div class="publication-entry__divider" aria-hidden="true"></div>
