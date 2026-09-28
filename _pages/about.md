@@ -60,15 +60,15 @@ redirect_from:
 <section class="updates content-section" aria-labelledby="news-title">
   <h2 class="section-title" id="news-title"><span class="section-number">02 /</span> Updates</h2>
   <ol class="updates-list">
-    <li><time datetime="2026-06">Jun 2026</time><div><span class="news-label">New preprint</span><p><a href="https://arxiv.org/abs/2606.02920">Fast Unlearning at Scale via Margin Self-Correction</a> is now online.</p></div></li>
-    <li><time datetime="2026-05">May 2026</time><div><span class="news-label">ICML 2026 · Spotlight</span><p><a href="https://arxiv.org/abs/2605.30997">Hedging on the Frontier: Learning New Tasks with Few Samples</a> was accepted as a Spotlight paper (top 2.2%)!</p></div></li>
-    <li><time datetime="2026-02">Feb 2026</time><div><span class="news-label">AISTATS 2026</span><p><a href="https://arxiv.org/abs/2604.02920">Efficient Logistic Regression with Mixture of Sigmoids</a> was accepted to AISTATS.</p></div></li>
+    <li><time datetime="2026-06">Jun 2026</time><div><span class="news-label">New preprint</span><p><a href="https://arxiv.org/abs/2606.02920">“Fast Unlearning at Scale via Margin Self-Correction”</a> is now online.</p></div></li>
+    <li><time datetime="2026-05">May 2026</time><div><span class="news-label">ICML 2026 · Spotlight</span><p><a href="https://arxiv.org/abs/2605.30997">“Hedging on the Frontier: Learning New Tasks with Few Samples”</a> was accepted as a Spotlight paper (top 2.2%)!</p></div></li>
+    <li><time datetime="2026-02">Feb 2026</time><div><span class="news-label">AISTATS 2026</span><p><a href="https://arxiv.org/abs/2604.02920">“Efficient Logistic Regression with Mixture of Sigmoids”</a> was accepted to AISTATS.</p></div></li>
   </ol>
   <details class="earlier-updates">
     <summary>Earlier updates <span aria-hidden="true">+</span></summary>
     <ol class="updates-list">
       <li><span class="update-date">Fall 2025</span><p>Joined the Statistical Machine Learning Group at ETH Zürich as a PhD student.</p></li>
-      <li><time datetime="2025-09">Sep 2025</time><p><a href="https://www.arxiv.org/abs/2510.19158">Instance-Dependent Regret Bounds for Nonstochastic Linear Partial Monitoring</a> was accepted to NeurIPS 2025!</p></li>
+      <li><time datetime="2025-09">Sep 2025</time><p><a href="https://www.arxiv.org/abs/2510.19158">“Instance-Dependent Regret Bounds for Nonstochastic Linear Partial Monitoring”</a> was accepted to NeurIPS 2025!</p></li>
       <li><span class="update-date">Spring 2025</span><p>Visiting Student Researcher at UC Berkeley, hosted by <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a>.</p></li>
       <li><span class="update-date">Fall 2024</span><p>Visiting Student Researcher at the University of Milan, hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p></li>
     </ol>

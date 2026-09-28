@@ -53,7 +53,8 @@ h1 { margin: 25px 0 26px; font-size: clamp(58px, 6.8vw, 88px); line-height: 1.06
 .intro h1 { margin: 0 0 14px; }
 .name-period { color: var(--accent); }
 .intro-description { font: 18px/1.8 var(--serif); }
-.intro-description--bio { margin-top: 0; font-size: 17px; }
+.intro-description--bio { margin-top: 0; }
+.intro-description--bio, .background > p, .off-duty h3, .off-duty p { font-size: 17px; }
 .intro-description--research { max-width: none; margin-bottom: 28px; }
 .intro-description strong { font-weight: 500; }
 .research-summary { margin-top: 22px; }
@@ -95,10 +96,10 @@ h1 { margin: 25px 0 26px; font-size: clamp(58px, 6.8vw, 88px); line-height: 1.06
 .earlier-updates summary span { font-size: 20px; }
 .earlier-updates[open] summary span { transform: rotate(45deg); }
 .publications-link { margin-top: 15px; }
-.background > p { font-size: 16px; line-height: 1.85; }
+.background > p { line-height: 1.85; }
 .background strong { font-weight: 600; }
 .off-duty { margin-top: 30px; padding: 24px; background: var(--wash); border-left: 2px solid var(--accent); }
-.off-duty p { margin-top: 12px; font-size: 14px; }
+.off-duty p { margin-top: 12px; }
 
 .contact-box { width: fit-content; max-width: 100%; margin: var(--contact-spacing) auto 0; padding: 12px 18px; border: 1px solid var(--rule); border-radius: 10px; background: var(--wash); text-align: center; }
 .contact-box > p { font-size: 17px; line-height: 1.55; }
@@ -155,7 +156,7 @@ h1 { margin: 25px 0 26px; font-size: clamp(58px, 6.8vw, 88px); line-height: 1.06
   .intro { --contact-spacing: 36px; gap: 25px; grid-template-columns: minmax(0, 1fr) 170px; }
   h1 { font-size: 51px; letter-spacing: -2.5px; }
   .intro-description { font-size: 17px; }
-  .intro-description--bio { font-size: 16px; }
+  .intro-description--bio, .background > p, .off-duty h3, .off-duty p { font-size: 16px; }
   .content-section { padding: 36px 0; }
 }
 @media (max-width: 540px) {
@@ -166,7 +167,7 @@ h1 { margin: 25px 0 26px; font-size: clamp(58px, 6.8vw, 88px); line-height: 1.06
   .intro { grid-template-columns: 1fr; gap: 38px; }
   h1 { font-size: clamp(49px, 12.5vw, 68px); margin: 23px 0; }
   .intro-description { font-size: 19px; }
-  .intro-description--bio { font-size: 17px; }
+  .intro-description--bio, .background > p, .off-duty h3, .off-duty p { font-size: 17px; }
   .portrait { width: 200px; justify-self: center; margin-bottom: 0; }
   .portrait figcaption { margin-top: 13px; }
   .research-summary .text-link { margin-left: 0; }
