@@ -21,13 +21,13 @@ redirect_from:
     <figcaption><span class="portrait-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Usually in Zürich.</span><span class="portrait-office">Office: ETH CAB G 19.3</span></figcaption>
   </figure>
   <div class="intro-research">
-    <p class="intro-description intro-description--research">My research focuses on how AI systems can make reliable decisions in open-ended environments while learning and improving over time. This direction spans three main areas:</p>
+    <p class="intro-description intro-description--research">My broad research interests focus on how AI systems can make reliable decisions in open-ended environments, where they need to evolve over time to become better versions of themselves. This broad direction can be divided into the following three main areas:</p>
     <ul class="research-list" aria-label="Research interests">
       <li><span>Sequential Decision Making</span></li>
       <li><span>Agentic Systems</span></li>
       <li><span>AI Safety</span></li>
     </ul>
-    <p class="intro-description research-summary">My goal is to understand both the potential and the risks of this new generation of AI systems. By continually adapting to feedback and data, these systems may tackle increasingly complex problems. Yet greater autonomy and continued adaptation without human oversight can also introduce new safety failures with unpredictable consequences. <a class="text-link" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a></p>
+    <p class="intro-description research-summary">Building on this premise, my idea is to bridge the best and worst cases of the new generation of AI systems. On the one hand, these models can now aim to solve very complex problems by repeatedly adapting to new feedback and data. On the other hand, increasing autonomy and continuous adaptation without human supervision can give rise to safety failure modes with unpredictable consequences. <a class="text-link" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a></p>
     <aside class="contact-box" id="contact" aria-label="Contact">
       <p>I am always open to discussing research ideas, collaborations, and student projects.</p>
       <div class="contact-box__links">
@@ -53,7 +53,7 @@ redirect_from:
   <p>I hold a master's in <em>Applied Mathematics</em> from <strong>EPFL</strong> and a bachelor's in <em>Mathematical Engineering</em> from <strong>Politecnico di Milano</strong>.</p>
   <aside class="off-duty" aria-labelledby="off-duty-title">
     <h3 class="eyebrow" id="off-duty-title">Away from the desk</h3>
-    <p>I enjoy playing and following football (Forza Inter!), pushing my limits in endurance sports, and eating good food.</p>
+    <p>Playing and following football (Forza Inter!), pushing limits in endurance sports, and eating good food.</p>
   </aside>
 </section>
 
