@@ -10,8 +10,8 @@ redirect_from:
 
 <section class="intro" aria-labelledby="intro-title">
   <div class="intro-copy">
-    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PhD student · ETH Zürich</p>
     <h1 id="intro-title">Federico<br>Di Gennaro<span class="name-period">.</span></h1>
+    <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PhD student · ETH Zürich</p>
     <p class="intro-description intro-description--bio">I am a PhD student at <strong>ETH Zürich</strong>, advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a> in the Statistical Machine Learning Group.</p>
   </div>
   <figure class="portrait">
