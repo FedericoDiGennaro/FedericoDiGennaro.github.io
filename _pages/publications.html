@@ -1,9 +1,15 @@
 ---
-layout: archive
+layout: home
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+
+<section class="publications-page" aria-labelledby="publications-title">
+  <header class="publications-heading">
+    <p class="eyebrow">Research / Papers</p>
+    <h1 id="publications-title">Publications<span class="name-period">.</span></h1>
+  </header>
 
 {% if site.author.googlescholar %}
   <p class="publications__intro">You can also find my papers on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
@@ -23,13 +29,13 @@ author_profile: true
       <p class="publication-entry__venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
       <div class="publication-entry__actions">
         {% if post.paperurl %}
-          <a class="publication-entry__button" href="{{ post.paperurl }}"><i class="fas fa-file-lines" aria-hidden="true"></i><span>Paper</span></a>
+          <a class="publication-entry__button" href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
         {% endif %}
         {% if post.codeurl %}
-          <a class="publication-entry__button" href="{{ post.codeurl }}"><span class="publication-entry__button-code">&lt;/&gt;</span><span>Code</span></a>
+          <a class="publication-entry__button" href="{{ post.codeurl }}">Code <span aria-hidden="true">↗</span></a>
         {% endif %}
         {% if post.posterurl %}
-          <a class="publication-entry__button" href="{{ post.posterurl }}"><i class="fas fa-image" aria-hidden="true"></i><span>Poster</span></a>
+          <a class="publication-entry__button" href="{{ post.posterurl }}">Poster <span aria-hidden="true">↗</span></a>
         {% endif %}
       </div>
       {% if post.teaser %}
@@ -43,3 +49,4 @@ author_profile: true
     {% endunless %}
   {% endfor %}
 {% endfor %}
+</section>
