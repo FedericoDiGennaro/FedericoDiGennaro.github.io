@@ -1,9 +1,8 @@
 (() => {
   const root = document.documentElement;
-  const preference = window.matchMedia('(prefers-color-scheme: dark)');
   let savedTheme;
-  try { savedTheme = localStorage.getItem('theme'); } catch (_) { /* Fall back to system preference. */ }
-  let theme = savedTheme === 'dark' || savedTheme === 'light' ? savedTheme : (preference.matches ? 'dark' : 'light');
+  try { savedTheme = localStorage.getItem('theme'); } catch (_) { /* Keep the default dark theme. */ }
+  let theme = savedTheme === 'dark' || savedTheme === 'light' ? savedTheme : 'dark';
 
   function applyTheme() {
     root.dataset.theme = theme;
@@ -27,10 +26,4 @@
     });
   });
 
-  preference.addEventListener('change', event => {
-    if (savedTheme !== 'dark' && savedTheme !== 'light') {
-      theme = event.matches ? 'dark' : 'light';
-      applyTheme();
-    }
-  });
 })();

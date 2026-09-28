@@ -10,15 +10,6 @@ redirect_from:
 
 <section class="intro" aria-labelledby="intro-title">
   <div class="intro-copy">
-    <nav class="contact-icons" aria-label="Contact and profiles">
-      <a href="mailto:fdigennaro@ethz.ch" aria-label="Email" title="Email">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
-      </a>
-      <a href="https://x.com/{{ site.author.twitter }}" aria-label="X" title="X"><span class="contact-icon-brand" aria-hidden="true">&#xe61b;</span></a>
-      <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
-      <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub"><span class="contact-icon-brand" aria-hidden="true">&#xf09b;</span></a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><span class="contact-icon-brand" aria-hidden="true">&#xf0e1;</span></a>
-    </nav>
     <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> PhD student · ETH Zürich</p>
     <h1 id="intro-title">Federico<br>Di Gennaro<span class="name-period">.</span></h1>
     <p class="intro-description intro-description--bio">I am a PhD student at <strong>ETH Zürich</strong>, advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a> in the Statistical Machine Learning Group.</p>
@@ -30,16 +21,29 @@ redirect_from:
     <figcaption><span class="portrait-location"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Usually in Zürich.</span><span class="portrait-office">Office: ETH CAB G 19.3</span></figcaption>
   </figure>
   <div class="intro-research">
-    <p class="intro-description intro-description--research">My broad research interests focus on how AI systems can make reliable decisions in open-ended environments: learning from feedback, adapting to uncertainty, and acting safely as their environments change.</p>
+    <p class="intro-description intro-description--research">My research focuses on how AI systems can make reliable decisions in open-ended environments while learning and improving over time. This direction spans three main areas:</p>
     <ul class="research-list" aria-label="Research interests">
       <li><span>Sequential Decision Making</span></li>
       <li><span>Agentic Systems</span></li>
       <li><span>AI Safety</span></li>
     </ul>
-    <div class="intro-links">
-      <a class="text-link" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a>
-      <a class="quiet-link" href="#contact">Get in touch <span aria-hidden="true">↘</span></a>
-    </div>
+    <p class="intro-description research-summary">My goal is to understand both the potential and the risks of this new generation of AI systems. By continually adapting to feedback and data, these systems may tackle increasingly complex problems. Yet greater autonomy and continued adaptation without human oversight can also introduce new safety failures with unpredictable consequences. <a class="text-link" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">↗</span></a></p>
+    <aside class="contact-box" id="contact" aria-label="Contact">
+      <p>I am always open to discussing research ideas, collaborations, and student projects.</p>
+      <div class="contact-box__links">
+        <strong>Contacts:</strong>
+        <nav class="contact-icons" aria-label="Contact and profiles">
+          <a href="mailto:fdigennaro@ethz.ch" title="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+            <span>fdigennaro@ethz.ch</span>
+          </a>
+          <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+          <a href="https://x.com/{{ site.author.twitter }}" aria-label="X" title="X"><span class="contact-icon-brand" aria-hidden="true">&#xe61b;</span></a>
+          <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><span class="contact-icon-brand" aria-hidden="true">&#xf0e1;</span></a>
+          <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub"><span class="contact-icon-brand" aria-hidden="true">&#xf09b;</span></a>
+        </nav>
+      </div>
+    </aside>
   </div>
 </section>
 
@@ -49,7 +53,7 @@ redirect_from:
   <p>I hold a master's in <em>Applied Mathematics</em> from <strong>EPFL</strong> and a bachelor's in <em>Mathematical Engineering</em> from <strong>Politecnico di Milano</strong>.</p>
   <aside class="off-duty" aria-labelledby="off-duty-title">
     <h3 class="eyebrow" id="off-duty-title">Away from the desk</h3>
-    <p>Running, cycling, swimming, and a bit of lifting. Usually cheering for Inter Milan. Always happy to find good food.</p>
+    <p>I enjoy playing and following football (Forza Inter!), pushing my limits in endurance sports, and eating good food.</p>
   </aside>
 </section>
 
@@ -70,20 +74,4 @@ redirect_from:
     </ol>
   </details>
   <a class="text-link publications-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a>
-</section>
-
-<section class="contact" id="contact" aria-labelledby="contact-title">
-  <div>
-    <h2 class="section-title" id="contact-title"><span class="section-number">03 /</span> Contacts</h2>
-    <p>Open to research ideas, collaborations, and student projects.</p>
-  </div>
-  <div class="contact-links">
-    <a class="contact-email" href="mailto:fdigennaro@ethz.ch">fdigennaro@ethz.ch <span aria-hidden="true">↗</span></a>
-    <div class="social-links" aria-label="Find me online">
-      <a href="{{ site.author.googlescholar }}">Google Scholar <span aria-hidden="true">↗</span></a>
-      <a href="https://github.com/{{ site.author.github }}">GitHub <span aria-hidden="true">↗</span></a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn <span aria-hidden="true">↗</span></a>
-      <a href="https://twitter.com/{{ site.author.twitter }}">Twitter / X <span aria-hidden="true">↗</span></a>
-    </div>
-  </div>
 </section>
