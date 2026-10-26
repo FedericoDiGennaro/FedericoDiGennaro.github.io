@@ -1,8 +1,8 @@
 (() => {
   const root = document.documentElement;
   let savedTheme;
-  try { savedTheme = localStorage.getItem('theme'); } catch (_) { /* Keep the default dark theme. */ }
-  let theme = savedTheme === 'dark' || savedTheme === 'light' ? savedTheme : 'dark';
+  try { savedTheme = localStorage.getItem('theme'); } catch (_) { /* Keep the default light theme. */ }
+  let theme = savedTheme === 'dark' || savedTheme === 'light' ? savedTheme : 'light';
 
   function applyTheme() {
     root.dataset.theme = theme;
