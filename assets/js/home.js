@@ -9,7 +9,7 @@
     const button = document.querySelector('.theme-switch');
     if (button) button.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
     const color = document.querySelector('meta[name="theme-color"]');
-    if (color) color.content = theme === 'dark' ? '#20221f' : '#f6f3ec';
+    if (color) color.content = theme === 'dark' ? '#1b1c1a' : '#fbfaf7';
   }
   applyTheme();
 

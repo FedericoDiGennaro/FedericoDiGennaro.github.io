@@ -7,26 +7,26 @@ author_profile: true
 
 <section class="publications-page" aria-labelledby="publications-title">
   <header class="publications-heading">
-    <p class="eyebrow">Research / Papers</p>
-    <h1 id="publications-title">Publications<span class="name-period">.</span></h1>
-  </header>
-
+    <h1 id="publications-title">Publications</h1>
 {% if site.author.googlescholar %}
-  <p class="publications__intro">You can also find my papers on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
+    <p class="publications__intro">You can also find my papers on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 {% endif %}
+  </header>
 
 {% include base_path %}
 
 {% assign publications_by_year = site.publications | sort: "date" | reverse | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% for year_group in publications_by_year %}
-  <h2 class="publications__year">{{ year_group.name }}</h2>
+  <section class="content-section" aria-label="{{ year_group.name }}">
+  <h2 class="section-label publications__year">{{ year_group.name }}</h2>
+  <div class="section-body">
   {% for post in year_group.items %}
     <article class="publication-entry">
-      <h3 class="publication-entry__title">{{ post.title }}</h3>
+      <h3 class="publication-entry__title">{% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}</h3>
       {% if post.authors %}
         <p class="publication-entry__authors">{{ post.authors | replace: "F. Di Gennaro", "<strong>F. Di Gennaro</strong>" }}</p>
       {% endif %}
-      <p class="publication-entry__venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+      <p class="publication-entry__venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
       <div class="publication-entry__actions">
         {% if post.paperurl %}
           <a class="publication-entry__button" href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
@@ -38,15 +38,26 @@ author_profile: true
           <a class="publication-entry__button" href="{{ post.posterurl }}">Poster <span aria-hidden="true">↗</span></a>
         {% endif %}
       </div>
+      {% assign abstract = post.content | strip %}
+      {% if abstract != "" %}
+        <details class="publication-entry__abstract">
+          <summary>Abstract</summary>
+          {{ post.content }}
+        </details>
+      {% endif %}
       {% if post.teaser %}
         <figure class="publication-entry__teaser">
-          <img src="{{ post.teaser | relative_url }}" alt="Teaser for {{ post.title }}">
+          <img src="{{ post.teaser | relative_url }}" alt="Teaser for {{ post.title }}" loading="lazy">
         </figure>
       {% endif %}
     </article>
-    {% unless forloop.last %}
-      <div class="publication-entry__divider" aria-hidden="true"></div>
-    {% endunless %}
   {% endfor %}
+  </div>
+  </section>
 {% endfor %}
 </section>
+
+<script>
+  MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']], processEscapes: true } };
+</script>
+<script defer src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js" id="MathJax-script"></script>
