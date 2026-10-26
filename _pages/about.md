@@ -14,7 +14,6 @@ redirect_from:
     <p class="intro-role">PhD student · ETH Zürich</p>
     <p class="intro-bio">I am a PhD student at <strong>ETH Zürich</strong>, advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a> in the Statistical Machine Learning Group and co-advised by <a href="https://las.inf.ethz.ch/krausea">Prof. Andreas Krause</a>.</p>
     <p class="intro-bio">Before ETH, I spent spring 2025 at <strong>UC Berkeley</strong> with <a href="https://sites.google.com/view/nikitazhivotovskiy/">Prof. Nikita Zhivotovskiy</a>, and fall 2024 at <strong>Università di Milano</strong> with <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>. I hold a master's in <em>Applied Mathematics</em> from <strong>EPFL</strong> and a bachelor's in <em>Mathematical Engineering</em> from <strong>Politecnico di Milano</strong>.</p>
-    <p class="intro-bio"><strong>Away from the desk:</strong> playing and following football (Forza Inter!), pushing limits in endurance sports, and eating good food.</p>
   </div>
   <div class="intro-side">
     <figure class="portrait">
@@ -70,3 +69,15 @@ redirect_from:
     <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>
   </div>
 </section>
+
+<aside class="off-duty" aria-labelledby="off-duty-title">
+  <div class="off-duty__icons" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="m12 7.5 4.3 3.1-1.6 5H9.3l-1.6-5Z"/><path d="M12 3v4.5M16.3 10.6l4.2-1.4M14.7 15.6l2.6 3.6M9.3 15.6l-2.6 3.6M7.7 10.6 3.5 9.2"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="14.5" cy="4.5" r="1.8"/><path d="m8 21 3-6 3 2v5M6 11l3-3 4 1 3 4 3 1M11 15l2-6"/></svg>
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h18a9 9 0 0 1-18 0Z"/><path d="M8 9c0-2 1.5-2 1.5-4M12 9c0-2 1.5-2 1.5-4M16 9c0-2 1.5-2 1.5-4"/></svg>
+  </div>
+  <div>
+    <h2 id="off-duty-title">Away from the desk</h2>
+    <p>Playing and following football (Forza Inter!), pushing limits in endurance sports, and eating good food.</p>
+  </div>
+</aside>
