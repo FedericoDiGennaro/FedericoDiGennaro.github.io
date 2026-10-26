@@ -26,13 +26,19 @@ author_profile: true
       {% if post.authors %}
         <p class="publication-entry__authors">{{ post.authors | replace: "F. Di Gennaro", "<strong>F. Di Gennaro</strong>" }}</p>
       {% endif %}
+      {% if post.authors_note %}
+        <p class="publication-entry__note">{{ post.authors_note }}</p>
+      {% endif %}
       <p class="publication-entry__venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
       <div class="publication-entry__actions">
         {% if post.paperurl %}
-          <a class="publication-entry__button" href="{{ post.paperurl }}">Paper <span aria-hidden="true">↗</span></a>
+          <a class="publication-entry__button" href="{{ post.paperurl }}"><i class="ai ai-arxiv" aria-hidden="true"></i>Paper</a>
         {% endif %}
         {% if post.codeurl %}
-          <a class="publication-entry__button" href="{{ post.codeurl }}">Code <span aria-hidden="true">↗</span></a>
+          <a class="publication-entry__button" href="{{ post.codeurl }}"><span class="brand-icon" aria-hidden="true">&#xf09b;</span>Code</a>
+        {% endif %}
+        {% if post.projecturl %}
+          <a class="publication-entry__button" href="{{ post.projecturl }}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Project page</a>
         {% endif %}
         {% if post.posterurl %}
           <a class="publication-entry__button" href="{{ post.posterurl }}">Poster <span aria-hidden="true">↗</span></a>
@@ -47,7 +53,11 @@ author_profile: true
       {% endif %}
       {% if post.teaser %}
         <figure class="publication-entry__teaser">
-          <img src="{{ post.teaser | relative_url }}" alt="Teaser for {{ post.title }}" loading="lazy">
+          {% if post.teaser_video %}
+            <video src="{{ post.teaser_video | relative_url }}" poster="{{ post.teaser | relative_url }}" autoplay muted loop playsinline preload="metadata" aria-label="Teaser animation for {{ post.title }}"></video>
+          {% else %}
+            <img src="{{ post.teaser | relative_url }}" alt="Teaser for {{ post.title }}" loading="lazy">
+          {% endif %}
         </figure>
       {% endif %}
     </article>
