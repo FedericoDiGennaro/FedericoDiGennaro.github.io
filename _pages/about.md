@@ -14,11 +14,11 @@ redirect_from:
     <p class="intro-role">PhD student · ETH Zürich</p>
     <p class="intro-bio">I am a PhD student at <strong>ETH Zürich</strong>, advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a> in the Statistical Machine Learning Group and co-advised by <a href="https://las.inf.ethz.ch/krausea">Prof. Andreas Krause</a>.</p>
     <nav class="profile-links" aria-label="Contact and profiles">
-      <a href="mailto:fdigennaro@ethz.ch"><span class="profile-links__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></span>fdigennaro@ethz.ch</a>
-      <a href="{{ site.author.googlescholar }}"><span class="profile-links__icon" aria-hidden="true"><i class="ai ai-google-scholar"></i></span>Scholar</a>
-      <a href="https://github.com/{{ site.author.github }}"><span class="profile-links__icon" aria-hidden="true"><span class="brand-icon">&#xf09b;</span></span>GitHub</a>
-      <a href="https://x.com/{{ site.author.twitter }}"><span class="profile-links__icon" aria-hidden="true"><span class="brand-icon">&#xe61b;</span></span>X</a>
-      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><span class="profile-links__icon" aria-hidden="true"><span class="brand-icon">&#xf0e1;</span></span>LinkedIn</a>
+      <a class="profile-links__email" href="mailto:fdigennaro@ethz.ch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>fdigennaro@ethz.ch</a>
+      <a href="{{ site.author.googlescholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub" title="GitHub"><span class="brand-icon" aria-hidden="true">&#xf09b;</span></a>
+      <a href="https://x.com/{{ site.author.twitter }}" aria-label="X" title="X"><span class="brand-icon" aria-hidden="true">&#xe61b;</span></a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><span class="brand-icon" aria-hidden="true">&#xf0e1;</span></a>
     </nav>
   </div>
   <figure class="portrait">
