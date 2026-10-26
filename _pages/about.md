@@ -12,17 +12,14 @@ redirect_from:
   <div class="intro-copy">
     <h1 id="intro-title">Federico Di Gennaro</h1>
     <p class="intro-role">PhD student · ETH Zürich</p>
-    <p class="intro-bio">I am a PhD student at <strong>ETH Zürich</strong>, advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a> in the Statistical Machine Learning Group.</p>
-    <aside class="contact-box" aria-label="Contact">
-      <p>I am always open to discussing research ideas, collaborations, and student projects.</p>
-      <nav class="profile-links" aria-label="Contact and profiles">
-        <a href="mailto:fdigennaro@ethz.ch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg>fdigennaro@ethz.ch</a>
-        <a href="{{ site.author.googlescholar }}"><i class="ai ai-google-scholar" aria-hidden="true"></i>Scholar</a>
-        <a href="https://github.com/{{ site.author.github }}"><span class="brand-icon" aria-hidden="true">&#xf09b;</span>GitHub</a>
-        <a href="https://x.com/{{ site.author.twitter }}"><span class="brand-icon" aria-hidden="true">&#xe61b;</span>X</a>
-        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><span class="brand-icon" aria-hidden="true">&#xf0e1;</span>LinkedIn</a>
-      </nav>
-    </aside>
+    <p class="intro-bio">I am a PhD student at <strong>ETH Zürich</strong>, advised by <a href="https://sml.inf.ethz.ch/group/fannyy/">Prof. Fanny Yang</a> in the Statistical Machine Learning Group and co-advised by <a href="https://las.inf.ethz.ch/krausea">Prof. Andreas Krause</a>.</p>
+    <nav class="profile-links" aria-label="Contact and profiles">
+      <a href="mailto:fdigennaro@ethz.ch"><span class="profile-links__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg></span>fdigennaro@ethz.ch</a>
+      <a href="{{ site.author.googlescholar }}"><span class="profile-links__icon" aria-hidden="true"><i class="ai ai-google-scholar"></i></span>Scholar</a>
+      <a href="https://github.com/{{ site.author.github }}"><span class="profile-links__icon" aria-hidden="true"><span class="brand-icon">&#xf09b;</span></span>GitHub</a>
+      <a href="https://x.com/{{ site.author.twitter }}"><span class="profile-links__icon" aria-hidden="true"><span class="brand-icon">&#xe61b;</span></span>X</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><span class="profile-links__icon" aria-hidden="true"><span class="brand-icon">&#xf0e1;</span></span>LinkedIn</a>
+    </nav>
   </div>
   <figure class="portrait">
     <img src="{{ '/images/profile-photo.jpg' | relative_url }}" alt="Federico Di Gennaro" width="2538" height="3233" fetchpriority="high">

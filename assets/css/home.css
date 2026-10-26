@@ -59,12 +59,15 @@ p + p { margin-top: 1rem; }
 h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.2px; }
 .intro-role { margin-top: 10px; color: var(--muted); font-size: 15px; }
 .intro-bio { margin-top: 24px; font-size: 17px; line-height: 1.7; }
-.contact-box { margin-top: 28px; padding: 18px 22px; border: 1px solid var(--accent-line); border-radius: 14px; background: var(--accent-wash); }
-.contact-box > p { font-size: 16px; line-height: 1.6; }
-.profile-links { display: flex; flex-wrap: wrap; gap: 6px 22px; margin-top: 10px; }
-.profile-links a { display: inline-flex; align-items: center; gap: 8px; font-size: 16px; text-decoration: none; }
+.profile-links { display: flex; flex-wrap: wrap; gap: 10px 16px; margin-top: 26px; }
+.profile-links a { display: inline-flex; align-items: center; gap: 8px; font-size: 15px; text-decoration: none; }
+.profile-links__icon { display: inline-grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--accent-wash); color: var(--accent); transition: background-color .15s ease, color .15s ease; }
 .profile-links a:hover { color: var(--accent); }
-.profile-links svg, .profile-links .ai, .profile-links .brand-icon { color: var(--accent); }
+.profile-links a:hover .profile-links__icon { background: var(--accent); color: var(--paper); }
+.profile-links svg { width: 16px; height: 16px; }
+.profile-links .ai { font-size: 16px; }
+.profile-links .brand-icon { font-size: 15px; }
+.brand-icon { color: var(--accent); }
 .profile-links svg { width: 17px; height: 17px; flex-shrink: 0; }
 .profile-links .ai { font-size: 17px; }
 .brand-icon { font: 16px/1 "Contact Brands"; }
@@ -163,8 +166,7 @@ h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.
   .intro-role { grid-row: 2; align-self: start; margin-top: -14px; }
   .portrait { grid-column: 2; grid-row: 1 / span 2; }
   .portrait figcaption { display: none; }
-  .intro-bio, .contact-box { grid-column: 1 / -1; margin-top: 0; }
-  .contact-box { padding: 16px 18px; }
+  .intro-bio, .profile-links { grid-column: 1 / -1; margin-top: 0; }
   .content-section { grid-template-columns: 1fr; gap: 16px; padding: 36px 0; }
   .research-list { grid-template-columns: 1fr; gap: 8px; }
   .research-list li { display: flex; align-items: center; gap: 12px; }
@@ -177,7 +179,7 @@ h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.
   .site-header nav a { padding: 6px 6px; font-size: 13px; }
   .theme-switch { margin-left: 0; }
   .updates-list li { grid-template-columns: 1fr; gap: 2px; }
-  .profile-links { gap: 6px 18px; }
+  .profile-links { gap: 10px 16px; }
   .off-duty { gap: 14px; padding: 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
