@@ -8,8 +8,8 @@
   --wash: #f3f1ea;
   --accent-wash: #f8ebe3;
   --accent-line: #ecd3c5;
-  --serif: "Source Serif 4", "Lora", Georgia, serif;
-  --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --serif: "Fraunces", "Lora", Georgia, serif;
+  --sans: "Instrument Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --gutter: 168px;
 }
 :root[data-theme="dark"] {
@@ -55,23 +55,20 @@ p + p { margin-top: 1rem; }
 :root[data-theme="dark"] .icon-moon, :root:not([data-theme="dark"]) .icon-sun { display: none; }
 
 /* Intro */
-.intro { display: grid; grid-template-columns: minmax(0, 1fr) 176px; gap: 56px; align-items: center; padding: 40px 0 56px; }
-h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.2px; }
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 52px; align-items: center; padding: 44px 0 60px; }
+h1 { font-size: clamp(38px, 5.4vw, 54px); line-height: 1.05; letter-spacing: -1.4px; font-variation-settings: "SOFT" 50; }
 .intro-role { margin-top: 10px; color: var(--muted); font-size: 15px; }
-.intro-bio { margin-top: 18px; font-size: 17px; line-height: 1.7; }
-.profile-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 24px; }
-.profile-links a { display: inline-grid; place-items: center; width: 40px; height: 40px; border: 1px solid var(--rule); border-radius: 10px; color: var(--ink); text-decoration: none; transition: border-color .15s ease, color .15s ease, background-color .15s ease; }
-.profile-links a:hover { border-color: var(--accent); color: var(--accent); }
-.profile-links .profile-links__email { display: inline-flex; gap: 9px; width: auto; margin-right: 4px; padding: 0 16px; border-color: var(--accent); background: var(--accent); color: var(--paper); font-size: 15px; font-weight: 500; }
-.profile-links .profile-links__email:hover { background: transparent; color: var(--accent); }
-.profile-links svg { width: 17px; height: 17px; }
-.profile-links .ai { font-size: 18px; }
-.profile-links .brand-icon { font-size: 17px; }
-.brand-icon { font-size: 15px; }
-.brand-icon { color: var(--accent); }
-.profile-links svg { width: 17px; height: 17px; flex-shrink: 0; }
-.profile-links .ai { font-size: 17px; }
+.intro-bio { margin-top: 18px; font-size: 17.5px; line-height: 1.7; }
+.intro-background { margin-top: 14px; color: var(--muted); font-size: 15.5px; line-height: 1.7; }
+.intro-background strong { color: var(--ink); font-weight: 500; }
 .brand-icon { font: 16px/1 "Contact Brands"; }
+.contact-box { display: flex; flex-wrap: wrap; gap: 2px; width: fit-content; max-width: 100%; margin-top: 24px; padding: 5px; border: 1px solid var(--accent-line); border-radius: 12px; background: var(--accent-wash); }
+.contact-box a { display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 8px; font-size: 14.5px; font-weight: 500; text-decoration: none; transition: background-color .15s ease, color .15s ease; }
+.contact-box a:hover { background: var(--paper); color: var(--accent); }
+.contact-box svg, .contact-box .ai, .contact-box .brand-icon { color: var(--accent); }
+.contact-box svg { width: 16px; height: 16px; }
+.contact-box .ai { font-size: 16px; }
+.contact-box .brand-icon { font-size: 15px; }
 .portrait img { display: block; width: 100%; height: auto; border-radius: 10px; background: var(--wash); }
 .portrait figcaption { display: grid; gap: 2px; margin-top: 12px; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .portrait figcaption span:first-child { display: flex; align-items: center; gap: 6px; color: var(--ink); }
@@ -91,11 +88,10 @@ h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.
 .research-list li { padding: 14px 16px; border-radius: 8px; background: var(--wash); font: 500 16px/1.35 var(--serif); }
 .research-list li::before { content: ""; display: block; width: 18px; height: 2px; margin-bottom: 12px; background: var(--accent); }
 
-.off-duty { display: flex; gap: 18px; align-items: flex-start; margin-top: 28px; padding: 18px 20px; border-radius: 14px; background: var(--wash); }
-.off-duty__icons { display: grid; gap: 6px; flex-shrink: 0; padding: 8px; border-radius: 10px; background: var(--paper); color: var(--accent); }
+.off-duty { display: flex; gap: 18px; align-items: center; padding: 16px 20px; border-radius: 14px; background: var(--wash); }
+.off-duty__icons { display: flex; gap: 10px; flex-shrink: 0; padding: 9px 12px; border-radius: 10px; background: var(--paper); color: var(--accent); }
 .off-duty__icons svg { display: block; width: 20px; height: 20px; }
-.off-duty h3 { font: 500 17px/1.4 var(--serif); }
-.off-duty p { margin-top: 4px; color: var(--muted); font-size: 15px; line-height: 1.65; }
+.off-duty p { font-size: 15.5px; line-height: 1.6; }
 
 /* Updates */
 .updates-list { list-style: none; padding: 0; }
@@ -160,14 +156,15 @@ h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.
   :root { --gutter: 1fr; }
   .page-wrap { width: calc(100% - 40px); }
   .site-header { padding: 20px 0; }
-  .intro { grid-template-columns: minmax(0, 1fr) 132px; gap: 24px; padding: 32px 0 48px; }
+  .intro { grid-template-columns: minmax(0, 1fr) 118px; gap: 24px; padding: 32px 0 48px; }
   .intro-copy { display: contents; }
   .intro h1, .intro-role { grid-column: 1; }
-  .intro h1 { align-self: end; }
+  .intro h1 { align-self: end; font-size: 36px; }
   .intro-role { grid-row: 2; align-self: start; margin-top: -14px; }
   .portrait { grid-column: 2; grid-row: 1 / span 2; }
   .portrait figcaption { display: none; }
-  .intro-bio, .profile-links { grid-column: 1 / -1; margin-top: 0; }
+  .intro-bio, .intro-background, .contact-box { grid-column: 1 / -1; margin-top: 0; }
+  .intro-background { margin-top: -10px; }
   .content-section { grid-template-columns: 1fr; gap: 16px; padding: 36px 0; }
   .research-list { grid-template-columns: 1fr; gap: 8px; }
   .research-list li { display: flex; align-items: center; gap: 12px; }
@@ -180,9 +177,9 @@ h1 { font-size: clamp(38px, 5.4vw, 52px); line-height: 1.08; letter-spacing: -1.
   .site-header nav a { padding: 6px 6px; font-size: 13px; }
   .theme-switch { margin-left: 0; }
   .updates-list li { grid-template-columns: 1fr; gap: 2px; }
-  .profile-links a { flex: 1 1 0; }
-  .profile-links .profile-links__email { flex-basis: 100%; justify-content: center; margin-right: 0; }
-  .off-duty { gap: 14px; padding: 16px; }
+  .contact-box { width: 100%; }
+  .contact-box a { padding: 7px 10px; }
+  .off-duty { flex-direction: column; align-items: flex-start; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
