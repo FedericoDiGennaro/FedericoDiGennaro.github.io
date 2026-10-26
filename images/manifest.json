@@ -1,5 +1,5 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Federico Di Gennaro",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
@@ -11,5 +11,8 @@
 			"sizes": "512x512",
 			"type": "image/png"
 		}
-	]
+	],
+	"short_name": "FDG",
+	"theme_color": "#a3412a",
+	"background_color": "#fbfaf7"
 }
