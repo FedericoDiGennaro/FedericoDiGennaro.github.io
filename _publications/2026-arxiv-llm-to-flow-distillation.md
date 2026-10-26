@@ -8,6 +8,7 @@ date: 2026-10-12
 venue: 'arXiv preprint'
 authors: 'R. De Santi*, F. Di Gennaro*, A. Gnazzo*, S. Tang, P. Chatterjee, F. Yang, İ. İ. Ceylan, M. M. Bronstein, A. Krause'
 authors_note: '* Equal contribution, alphabetical order'
+institutions: [eth, eth-ai-center, tu-wien, aithyra, penn, oxford]
 paperurl: 'https://arxiv.org/abs/2610.17246'
 codeurl: 'https://github.com/FedericoDiGennaro/LLM-to-Flow-Distillation'
 projecturl: 'https://llm-to-flow-distillation.github.io/'

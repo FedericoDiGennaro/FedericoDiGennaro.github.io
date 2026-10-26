@@ -6,7 +6,9 @@ permalink: /publication/2026-arxiv-fast-unlearning-margin-self-correction
 excerpt: 'Fast unlearning at scale via margin self-correction.'
 date: 2026-06-01
 venue: 'arXiv preprint'
-authors: 'F. Di Gennaro, A. Shevchenko, F. Yang'
+authors: 'F. Di Gennaro*, A. Shevchenko*, F. Yang'
+authors_note: '* Equal contribution'
+institutions: [eth]
 paperurl: 'https://arxiv.org/pdf/2606.02920'
 codeurl: 'https://github.com/FedericoDiGennaro/Fast-LLM-Unlearning-MarginSelfCorrection'
 ---

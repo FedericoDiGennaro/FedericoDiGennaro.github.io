@@ -6,7 +6,9 @@ permalink: /publication/2024-icml-workshop-fairness
 excerpt: 'Post-processing fairness with minimal changes.'
 date: 2024-07-01
 venue: 'ICML Workshop on Humans, Algorithmic Decision-Making and Society'
-authors: 'F. Di Gennaro, T. Laugel, V. Grari, X. Renard, M. Detyniecki'
+authors: 'F. Di Gennaro*, T. Laugel*, V. Grari, X. Renard, M. Detyniecki'
+authors_note: '* Equal contribution'
+institutions: [axa, sorbonne]
 paperurl: 'https://arxiv.org/pdf/2408.15096'
 ---
 

@@ -7,6 +7,7 @@ excerpt: 'Efficient Logistic Regression with Mixture of Sigmoids.'
 date: 2026-04-01
 venue: 'International Conference on Artificial Intelligence and Statistics (AISTATS)'
 authors: 'F. Di Gennaro, S. Chakraborty, N. Zhivotovskiy'
+institutions: [eth, umich, berkeley]
 paperurl: 'https://arxiv.org/pdf/2604.02920'
 codeurl: 'https://github.com/FedericoDiGennaro/Efficient-LogReg-with-Mixture-of-Sigmoids'
 ---

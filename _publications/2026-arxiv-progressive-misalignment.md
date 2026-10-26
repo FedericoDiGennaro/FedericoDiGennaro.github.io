@@ -8,6 +8,7 @@ date: 2026-10-15
 venue: 'arXiv preprint'
 authors: 'K. Abdel Sadek*, F. Di Gennaro*, F. Yang'
 authors_note: '* Equal contribution, alphabetical order'
+institutions: [berkeley, eth]
 paperurl: 'https://arxiv.org/abs/2610.22467'
 projecturl: 'https://progressive-misalignment.github.io/'
 ---

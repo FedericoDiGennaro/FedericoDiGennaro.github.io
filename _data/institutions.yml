@@ -1,0 +1,16 @@
+# Logos shown under the authors on the publications page (files live in /images/logos/).
+# `label` adds the name as text next to logos that are unreadable at small size.
+eth: { name: "ETH Zürich", logo: "eth-zurich.svg" }
+eth-ai-center: { name: "ETH AI Center", logo: "eth-ai-center.png" }
+berkeley: { name: "UC Berkeley", logo: "berkeley.png" }
+ucsd: { name: "UC San Diego", logo: "ucsd.svg" }
+umich: { name: "University of Michigan", logo: "umich.svg" }
+tu-wien: { name: "TU Wien", logo: "tu-wien.svg" }
+aithyra: { name: "AITHYRA", logo: "aithyra.svg" }
+penn: { name: "University of Pennsylvania", logo: "penn.svg" }
+oxford: { name: "University of Oxford", logo: "oxford.svg" }
+epfl: { name: "EPFL", logo: "epfl.svg" }
+unimi: { name: "Università degli Studi di Milano", logo: "unimi.png", label: "Università degli Studi di Milano", seal: true }
+polimi: { name: "Politecnico di Milano", logo: "polimi.svg" }
+axa: { name: "AXA", logo: "axa.svg" }
+sorbonne: { name: "Sorbonne Université", logo: "sorbonne.svg" }

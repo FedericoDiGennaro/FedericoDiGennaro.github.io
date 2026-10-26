@@ -29,6 +29,13 @@ author_profile: true
       {% if post.authors_note %}
         <p class="publication-entry__note">{{ post.authors_note }}</p>
       {% endif %}
+      {% if post.institutions %}
+        <ul class="publication-entry__logos" aria-label="Institutions">
+          {% for key in post.institutions %}{% assign inst = site.data.institutions[key] %}
+            <li title="{{ inst.name }}"{% if inst.seal %} class="is-seal"{% endif %}><img src="{{ '/images/logos/' | append: inst.logo | relative_url }}" alt="{{ inst.name }}" loading="lazy">{% if inst.label %}<span>{{ inst.label }}</span>{% endif %}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
       <p class="publication-entry__venue">{{ post.venue }}, {{ post.date | date: "%Y" }}</p>
       <div class="publication-entry__actions">
         {% if post.paperurl %}

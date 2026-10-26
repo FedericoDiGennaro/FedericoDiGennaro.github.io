@@ -43,7 +43,7 @@ redirect_from:
       <li>AI Safety</li>
     </ul>
     <p>Building on this premise, my idea is to bridge the best and worst cases of the new generation of AI systems. On the one hand, these models can now aim to solve very complex problems by repeatedly adapting to new feedback and data. On the other hand, increasing autonomy and continuous adaptation without human supervision can give rise to safety failure modes with unpredictable consequences.</p>
-    <a class="text-link" href="{{ '/publications/' | relative_url }}">Explore my research <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/publications/' | relative_url }}">See publications <span aria-hidden="true">→</span></a>
   </div>
 </section>
 
@@ -66,7 +66,6 @@ redirect_from:
         <li><span class="update-date">Fall 2024</span><p>Visiting Student Researcher at the University of Milan, hosted by <a href="https://cesa-bianchi.di.unimi.it/">Prof. Nicolò Cesa-Bianchi</a>.</p></li>
       </ol>
     </details>
-    <a class="text-link" href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>
   </div>
 </section>
 

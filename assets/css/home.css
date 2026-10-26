@@ -132,6 +132,11 @@ h1 { font-size: clamp(38px, 5.4vw, 54px); line-height: 1.05; letter-spacing: -1.
 .publication-entry__title a { text-decoration: none; }
 .publication-entry__authors { margin-top: 8px; font-size: 15px; }
 .publication-entry__note { margin-top: 2px; color: var(--muted); font-size: 12px; }
+.publication-entry__logos { display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 8px; padding: 0; list-style: none; }
+.publication-entry__logos li { display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 4px 8px; border: 1px solid var(--rule); border-radius: 6px; background: #fff; }
+.publication-entry__logos img { display: block; width: auto; height: 100%; max-width: 96px; }
+.publication-entry__logos .is-seal img { filter: brightness(.45) contrast(1.6); }
+.publication-entry__logos span { color: #33352f; font: 500 10.5px/1.2 var(--serif); white-space: nowrap; }
 .publication-entry__venue { margin-top: 2px; color: var(--muted); font-size: 14px; font-style: italic; }
 .publication-entry__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
 .publication-entry__button { display: inline-flex; align-items: center; gap: 6px; min-height: 30px; padding: 0 11px; border: 1px solid var(--rule); border-radius: 6px; font-size: 13px; font-weight: 500; text-decoration: none; transition: border-color .15s ease, color .15s ease; }

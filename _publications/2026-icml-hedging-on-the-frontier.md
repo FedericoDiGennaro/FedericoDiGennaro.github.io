@@ -6,7 +6,9 @@ permalink: /publication/2026-icml-hedging-on-the-frontier
 excerpt: 'Hedging on the frontier for learning new tasks with few samples.'
 date: 2026-05-29
 venue: 'International Conference on Machine Learning (ICML), Spotlight (top 2.2%)'
-authors: 'T. Wegel, F. Di Gennaro, G. So, F. Yang'
+authors: 'T. Wegel, F. Di Gennaro*, G. So*, F. Yang'
+authors_note: '* Equal contribution'
+institutions: [eth, ucsd]
 paperurl: 'https://arxiv.org/pdf/2605.30997'
 codeurl: 'https://github.com/FedericoDiGennaro/Hedging-on-the-Frontier'
 ---
